@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 177
-  Top = 255
+  Left = 301
+  Top = 203
   Width = 616
   Height = 563
   Caption = 'Form1'
@@ -16,8 +16,8 @@ object Form1: TForm1
   object Label1: TLabel
     Left = 112
     Top = 128
-    Width = 8
-    Height = 36
+    Width = 345
+    Height = 57
     Alignment = taCenter
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -27,7 +27,7 @@ object Form1: TForm1
     ParentFont = False
   end
   object Timer1: TTimer
-    OnTimer = Timer1Timer
+    OnTimer = Form1
     Left = 152
     Top = 64
   end

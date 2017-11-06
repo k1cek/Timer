@@ -9,7 +9,9 @@
 #pragma resource "*.dfm"
 TForm1 *Form1;
 
-        int s=3;
+      int s=10;
+
+
 
 //---------------------------------------------------------------------------
 __fastcall TForm1::TForm1(TComponent* Owner)
@@ -18,8 +20,9 @@ __fastcall TForm1::TForm1(TComponent* Owner)
 }
 //---------------------------------------------------------------------------
 
-void __fastcall TForm1::Timer1Timer(TObject *Sender)
+void __fastcall TForm1::Form1(TObject *Sender)
 {
+
      s--;
      int godzin, sekund, minut;
      AnsiString godz, min, sek;
@@ -45,3 +48,8 @@ void __fastcall TForm1::Timer1Timer(TObject *Sender)
      }
 }
 //---------------------------------------------------------------------------
+
+
+
+
+
